@@ -1,0 +1,22 @@
+.menu {
+  font-size: 1.2em;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+ul li {
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+}
+.lienactive {
+  color: blueviolet;
+  text-shadow: 3px 5px 10px blueviolet;
+}
